@@ -5,6 +5,7 @@
         <item>Battery</item>
         <item>Button</item>
         <item>Camera</item>
+        <item>Stream</item>
         <item>Debug</item>
         <item>Gps</item>
         <item>Joystick</item>
@@ -81,6 +82,13 @@
         The Camera Node is designed for displaying camera recordings. Therefore, it subscribes to
         the topic specified in the details and receives a sensor_msgs/Image message.
         It will then display the received Image in the Viz Tab.
+    </string>
+
+
+    <!-- Stream -->
+    <string name="Stream_description">
+        The Stream Node captures data from the phones camera and publishes them to the topic
+        specified in the details.
     </string>
 
 
